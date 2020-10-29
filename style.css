@@ -1,0 +1,121 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL SETTINGS */
+body, html {
+    height: 100%;
+    font-size: 12px;
+}
+
+/* FONTS */
+/* kumbh-sans-regular - latin */
+@font-face {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kumbh Sans Regular'), local('KumbhSans-Regular'),
+         url('./fonts/kumbh-sans-v1-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/kumbh-sans-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* kumbh-sans-700 - latin */
+  @font-face {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Kumbh Sans Bold'), local('KumbhSans-Bold'),
+         url('./fonts/kumbh-sans-v1-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/kumbh-sans-v1-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* BODY BACKGROUND */
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+    color: hsl(238, 29%, 16%);
+}
+
+/* FAQ BOX */
+main {
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq-container {
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+}
+
+#image-box {
+    width: 50%;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -300px;
+    margin-right: 40px;
+    position: relative;
+}
+
+#woman-online {
+    position: absolute;
+    right: 5px;
+    top: 60px
+}
+
+#box {
+    position: absolute;
+    top: 200px;
+    left: -130px;
+}
+
+#faq-box {
+    width: 50%;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#faq-box ul > li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.faq-item > h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.faq-item > h2 > a {
+    color: hsl(238, 29%, 16%);
+    text-decoration: none;
+}
+
+.faq-item > h2 > a:hover {
+    color: hsl(14, 88%, 65%)
+}
+
+.faq-item > p {
+    margin-bottom: 1rem;
+}
+
+.faq-item img {
+    float: right;
+}
+
+
+
+/* FOOTER */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
