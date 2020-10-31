@@ -114,6 +114,10 @@ main {
     float: right;
 }
 
+.arrow-up {
+    transform: rotate(180deg);
+}
+
 
 
 /* FOOTER */
