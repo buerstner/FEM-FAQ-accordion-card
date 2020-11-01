@@ -80,18 +80,32 @@ main {
     padding-left: 2rem;
 }
 
+#faq-box > h1 {
+    margin-bottom: 2rem;
+}
+
 .hidden {
     display: none;
 }
 
+.active {
+    font-weight: bold;
+}
+
 #faq-box ul > li {
     list-style: none;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .faq-item > h2 {
     font-size: 1rem;
     margin-bottom: 1rem;
+    font-weight: normal;
+}
+.faq-item > h2:hover {
+    font-weight: bold;
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
 }
 
 .faq-item > h2 > a {
@@ -111,6 +125,9 @@ main {
     float: right;
 }
 
+.faq-item hr {
+    margin-top: 1.5rem;
+}
 .arrow-up {
     transform: rotate(180deg);
 }
