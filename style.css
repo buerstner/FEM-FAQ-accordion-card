@@ -47,33 +47,30 @@ main {
 }
 
 #faq-container {
-    width: 800px;
-    height: 500px;
+    width: 770px;
+    height: 450px;
     background-color: #fff;
     display: flex;
     border-radius: 20px;
+    box-shadow: 0 30px 60px -20px rgb(55, 55, 58)
 }
 
 #image-box {
     width: 50%;
-    background-image: url(./images/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: -300px;
-    margin-right: 40px;
+    background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: right, right;
+    background-position-y: 60px, -280px;
+    background-size: 115%, 240%;
+    margin-right: 60px;
     position: relative;
-}
-
-#woman-online {
-    position: absolute;
-    right: 5px;
-    top: 60px
 }
 
 #box {
     position: absolute;
-    top: 200px;
-    left: -130px;
+    top: 160px;
+    left: -94px;
+    transform: scale(0.9); 
 }
 
 #faq-box {
