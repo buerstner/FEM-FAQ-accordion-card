@@ -52,7 +52,8 @@ main {
     background-color: #fff;
     display: flex;
     border-radius: 20px;
-    box-shadow: 0 30px 60px -20px rgb(55, 55, 58)
+    box-shadow: 0 30px 60px -20px rgb(55, 55, 58);
+    
 }
 
 #image-box {
@@ -131,8 +132,6 @@ main {
 .arrow-up {
     transform: rotate(180deg);
 }
-
-
 
 /* FOOTER */
 .attribution { font-size: 11px; text-align: center; }
