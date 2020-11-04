@@ -6,8 +6,7 @@
 }
 
 /* GENERAL SETTINGS */
-body, html {
-    height: 100%;
+html {
     font-size: 12px;
 }
 
@@ -36,16 +35,14 @@ body {
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
     color: hsl(238, 29%, 16%);
-}
-
-/* FAQ CONTAINER*/
-main {
-    height: 97%;
+    min-height: 100vh;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* FAQ CONTAINER*/
 #faq-container {
     width: 770px;
     height: 450px;
@@ -142,7 +139,13 @@ main {
 }
 
 /* FOOTER */
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 11px;
+    text-align: center;
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* RESPONSIVE BEHAVIOUR */
